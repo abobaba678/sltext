@@ -73,20 +73,26 @@ sltext "<text>" <percentage> <dictionary>
 Transform 50% of the characters:
 
 ```bash
-sltext "Still Life Text" 50 dictionary.txt
+sltext "Still Life Text" 50 from-to.txt
 ```
 
 Transform all characters:
 
 ```bash
-sltext "Hello World" 100 dictionary.txt
+sltext "Hello World" 100 from-to.txt
 ```
 
 Transform 10% of the characters:
 
 ```bash
-sltext "Rust is awesome" 10 dictionary.txt
+sltext "Rust is awesome" 10 from-to.txt
 ```
+
+Rust run:
+```bash
+cargo run "Hello, world!" 100 from-to.txt
+```
+
 
 ## 📖 Dictionary Format
 
@@ -137,7 +143,7 @@ You can create your own dictionaries for different visual styles and alphabets.
 
 This project is open-source. 
 
-Choose a license before publishing the repository (for example, MIT).
+GPL 3.0 license
 
 ---
 
